@@ -1,0 +1,27 @@
+.card-text{
+    color: green;
+    font-weight: 600;
+}
+
+.card-title{
+    
+    font-weight: 900;
+}
+
+.card{
+    height: 400px;
+}
+.row{
+    height: 200px;
+}
+
+.card-1{
+    height: 50px;
+}
+
+.card-footer {
+    position:relative;
+    margin-top:100%;
+}
+
+
