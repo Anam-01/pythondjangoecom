@@ -21,6 +21,8 @@ from shopping import views
 urlpatterns = [
     path('admin/', admin.site.urls),
     path('index/',views.index,name='index'),
-    path('checkout/',views.checkout,name='checkout'),
     path('<int:id>/',views.detail,name='detail'),
+    path('signup/',views.signup,name='signup'),
+    path('login/',views.login_page,name='login_page'),
+    path('signup/index/',views.index,name='index'),
 ]
